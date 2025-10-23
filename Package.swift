@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(name: "json", targets: ["json"]),
-        .library(name: "json-framework", targets: ["jsonFramework"]),
+        .library(name: "jsonFramework", targets: ["jsonFramework"]),
     ],
     targets: [
         .target(
