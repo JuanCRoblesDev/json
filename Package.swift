@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "nlohmann-json",
+    name: "json",
      platforms: [
         .iOS(.v12), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v4), .visionOS(.v1)
     ],
