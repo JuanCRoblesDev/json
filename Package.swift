@@ -10,16 +10,16 @@ let package = Package(
     ],
     products: [
         .library(name: "json", targets: ["json"]),
-        .library(name: "jsonFramework", targets: ["jsonFramework"]),
+//        .library(name: "jsonFramework", targets: ["jsonFramework"]),
     ],
     targets: [
-        .target(
-            name: "json",
-            path: "single_include/nlohmann",
-            publicHeadersPath: "."
-        ),
+//        .target(
+//            name: "json",
+//            path: "single_include/nlohmann",
+//            publicHeadersPath: "."
+//        ),
         .binaryTarget(
-            name: "jsonFramework",
+            name: "json",
             url: "https://github.com/JuanCRoblesDev/json/releases/download/v3.12.1/json.xcframework.zip",
             checksum: "8a67fc9818e93d45116d1082092e9d8ee4db1cdd6cac6b7be271d65440ad625b"
         ),
